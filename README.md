@@ -24,14 +24,14 @@ Follow these steps to set up and run the project on your local machine:
 
 2. **Navigate to the Project Directory:**
 
-Change your current directory to the project directory:
+   Change your current directory to the project directory:
 
    ```bash
    cd User-Authentication-Assessment
 
 3. **Create a Virtual Environment (Optional):**
 
-It's a good practice to create a virtual environment for your project. Run the following command to create one:
+   It's a good practice to create a virtual environment for your project. Run the following command to create one:
 
    ```bash
    python -m venv venv
@@ -44,18 +44,18 @@ It's a good practice to create a virtual environment for your project. Run the f
 
 5. **Install Dependencies:**
 
-Install the project's Python dependencies using pip:
+   Install the project's Python dependencies using pip:
 
    ```bash
    pip install -r requirements.txt
 
 6. **Configure Database:**
 
-By default, this project uses SQLite for the database. You can configure your database settings in the settings.py file if you want to use a different database.
+   By default, this project uses SQLite for the database. You can configure your database settings in the settings.py file if you want to use a different database.
 
 7. **Apply Migrations:**
 
-Apply the database migrations to create the necessary tables:
+   Apply the database migrations to create the necessary tables:
 
    ```bash
    python manage.py migrate
@@ -63,7 +63,7 @@ Apply the database migrations to create the necessary tables:
 
 8. **Run the Development Server:**
 
-Start the Django development server:
+   Start the Django development server:
 
    ```bash
    python manage.py runserver
@@ -73,18 +73,20 @@ The development server will be accessible at http://127.0.0.1:8000/.
 
 9. **Explore the Application:**
 
-Open a web browser and access the application at http://127.0.0.1:8000/.
-You should be able to register, log in, and access protected views.
-Run Tests (Optional):
+   Open a web browser and access the application at http://127.0.0.1:8000/.
+   You should be able to register, log in, and access protected views.
+   Run Tests (Optional):
 
-To run the project's tests, use the following command:
+   To run the project's tests, use the following command:
 
    ```bash
    python manage.py test
 
-Project Structure
-myapp/: The main Django app for user authentication and views.
-auth/: The project's settings and configuration.
+**Project Structure**
+
+   myapp/: The main Django app for user authentication and views.
+   
+   auth/: The project's settings and configuration.
 
 
 
